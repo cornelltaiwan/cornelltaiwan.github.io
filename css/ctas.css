@@ -175,7 +175,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
     color: #fed136;
 }
 
@@ -265,7 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -334,9 +335,9 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 22px;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 @media(min-width:768px) {
@@ -345,9 +346,13 @@ section h3.section-subheading {
     }
 }
 
-.service-heading {
+.info-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.info-body {
+    font-size: 18px;
 }
 
 #portfolio .portfolio-item {
