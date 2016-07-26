@@ -1,8 +1,4 @@
 <?php
-    // maybe this will help
-    header("Access-Control-Allow-Origin: *");
-    header("Access-Control-Allow-Methods: *");
-
     // Build email
     $recipient = "ak722@cornell.edu";
     $subject = "test from $name";
