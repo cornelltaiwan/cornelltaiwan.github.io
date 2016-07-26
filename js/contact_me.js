@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/mail.php",
+                url: "cornelltaiwan.github.io/mail/mail.php",
                 type: "POST",
                 contentType: "application/json; charset=utf-8",
                 data: {
