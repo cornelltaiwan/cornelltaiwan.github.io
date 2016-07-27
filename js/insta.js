@@ -1,12 +1,9 @@
-var media = new XMLHttpRequest();
-var url = 'https://www.instagram.com/cornelltaiwaneseas/media/';
-   
-function getMedia() {
-  if(media) {    
-    media.open('GET', url, true);
-    media.send();
-    alert(media.response());
-  }
-}
-
-getMedia();
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        clientId: '319408ee2edb42519b76507debbd3b0c',
+        userID: '2153603227'
+        target: 'instagram'
+    });
+    feed.run();
+</script>
