@@ -576,15 +576,14 @@
     <script src="js/agency.js"></script>
 
     <!-- Insta dat -->
-    <script src="js/instafeed.min.js"></script>
     <script>
-        var feed = new Instafeed({
-            get: 'user',
-            clientId: '319408ee2edb42519b76507debbd3b0c',
-            userId: '2153603227',
-            target: 'instagram'
+        $.ajax({
+            url: "https://api.instagram.com/oembed?url=http://instagr.am/p/BD_A4bisnD_/",
+            dataType: json,
+            success: function(data){
+                $("instagram").html(data.html);
+            }
         });
-        feed.run();
     </script>
 
 </body>
