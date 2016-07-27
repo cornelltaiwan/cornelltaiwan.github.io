@@ -579,6 +579,7 @@
     <script>
         $.ajax({
             url: "https://api.instagram.com/oembed?url=http://instagr.am/p/BD_A4bisnD_/",
+            dataType: "jsonp",
             success: function(data){
                 $("instagram").html(data.html);
             }
